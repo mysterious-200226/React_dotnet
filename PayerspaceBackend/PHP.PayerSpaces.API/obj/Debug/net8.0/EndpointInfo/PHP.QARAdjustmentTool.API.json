@@ -1,0 +1,173 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "PHP.QARAdjustmentTool.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/QARAdjustmentTool/ValidateSaml": {
+      "post": {
+        "tags": [
+          "QARAdjustmentTool"
+        ],
+        "summary": "Stores SAML response.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SamlRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SamlRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SamlRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Stores SAML response.."
+          },
+          "500": {
+            "description": "If there is an error retrieving the data"
+          }
+        }
+      }
+    },
+    "/api/QARAdjustmentTool/GetSamplePdf": {
+      "get": {
+        "tags": [
+          "QARAdjustmentTool"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QARAdjustmentTool/GetBlobFile": {
+      "get": {
+        "tags": [
+          "QARAdjustmentTool"
+        ],
+        "parameters": [
+          {
+            "name": "blobPath",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QARAdjustmentTool/GetAllBlobFiles": {
+      "get": {
+        "tags": [
+          "QARAdjustmentTool"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/QARAdjustmentTool/TestDb": {
+      "get": {
+        "tags": [
+          "QARAdjustmentTool"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/S3Storage/GetSamplePdf": {
+      "get": {
+        "tags": [
+          "S3Storage"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/S3Storage/GetS3File": {
+      "get": {
+        "tags": [
+          "S3Storage"
+        ],
+        "parameters": [
+          {
+            "name": "s3Key",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/S3Storage/GetAllS3Files": {
+      "get": {
+        "tags": [
+          "S3Storage"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SamlRequest": {
+        "type": "object",
+        "properties": {
+          "samlResponse": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Enter: Bearer {token}",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PHP.QARAdjustmentTool.API</name>
+    </assembly>
+    <members>
+        <member name="M:QARAdjustmentTool.Controllers.QARAdjustmentToolController.Post(QARAdjustmentTool.Controllers.SamlRequest)">
+            <summary>
+            Stores SAML response. 
+            </summary>
+            <returns>
+            Stores SAML response.
+            </returns>
+            <response code="200">Stores SAML response..</response>
+            <response code="500">If there is an error retrieving the data</response>
+        </member>
+    </members>
+</doc>

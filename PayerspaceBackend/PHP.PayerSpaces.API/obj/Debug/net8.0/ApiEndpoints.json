@@ -1,0 +1,100 @@
+[
+  {
+    "ContainingType": "QARAdjustmentTool.Controllers.QARAdjustmentToolController",
+    "Method": "GetAllBlobFiles",
+    "RelativePath": "api/QARAdjustmentTool/GetAllBlobFiles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QARAdjustmentTool.Controllers.QARAdjustmentToolController",
+    "Method": "GetBlobFile",
+    "RelativePath": "api/QARAdjustmentTool/GetBlobFile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blobPath",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QARAdjustmentTool.Controllers.QARAdjustmentToolController",
+    "Method": "GetSamplePdf",
+    "RelativePath": "api/QARAdjustmentTool/GetSamplePdf",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QARAdjustmentTool.Controllers.QARAdjustmentToolController",
+    "Method": "TestDb",
+    "RelativePath": "api/QARAdjustmentTool/TestDb",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "QARAdjustmentTool.Controllers.QARAdjustmentToolController",
+    "Method": "Post",
+    "RelativePath": "api/QARAdjustmentTool/ValidateSaml",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "QARAdjustmentTool.Controllers.SamlRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "S3StorageController",
+    "Method": "GetAllS3Files",
+    "RelativePath": "api/S3Storage/GetAllS3Files",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "S3StorageController",
+    "Method": "GetS3File",
+    "RelativePath": "api/S3Storage/GetS3File",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "s3Key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "S3StorageController",
+    "Method": "GetSamplePdf",
+    "RelativePath": "api/S3Storage/GetSamplePdf",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

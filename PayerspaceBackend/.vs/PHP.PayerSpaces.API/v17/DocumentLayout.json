@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vphpallaps\\source\\repos\\GitRepo\\Prominence-Payer-Spaces\\PayerspaceBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45046632-3292-4A21-9C70-4657D768F4DC}|PHP.PayerSpaces.API\\PHP.PayerSpaces.API.csproj|c:\\users\\vphpallaps\\source\\repos\\gitrepo\\prominence-payer-spaces\\payerspacebackend\\php.payerspaces.api\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45046632-3292-4A21-9C70-4657D768F4DC}|PHP.PayerSpaces.API\\PHP.PayerSpaces.API.csproj|solutionrelative:php.payerspaces.api\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45046632-3292-4A21-9C70-4657D768F4DC}|PHP.PayerSpaces.API\\PHP.PayerSpaces.API.csproj|c:\\users\\vphpallaps\\source\\repos\\gitrepo\\prominence-payer-spaces\\payerspacebackend\\php.payerspaces.api\\models\\payerspacedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45046632-3292-4A21-9C70-4657D768F4DC}|PHP.PayerSpaces.API\\PHP.PayerSpaces.API.csproj|solutionrelative:php.payerspaces.api\\models\\payerspacedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45046632-3292-4A21-9C70-4657D768F4DC}|PHP.PayerSpaces.API\\PHP.PayerSpaces.API.csproj|c:\\users\\vphpallaps\\source\\repos\\gitrepo\\prominence-payer-spaces\\payerspacebackend\\php.payerspaces.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45046632-3292-4A21-9C70-4657D768F4DC}|PHP.PayerSpaces.API\\PHP.PayerSpaces.API.csproj|solutionrelative:php.payerspaces.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45046632-3292-4A21-9C70-4657D768F4DC}|PHP.PayerSpaces.API\\PHP.PayerSpaces.API.csproj|c:\\users\\vphpallaps\\source\\repos\\gitrepo\\prominence-payer-spaces\\payerspacebackend\\php.payerspaces.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{45046632-3292-4A21-9C70-4657D768F4DC}|PHP.PayerSpaces.API\\PHP.PayerSpaces.API.csproj|solutionrelative:php.payerspaces.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 379,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vphpallaps\\source\\repos\\GitRepo\\Prominence-Payer-Spaces\\PayerspaceBackend\\PHP.PayerSpaces.API\\appsettings.json",
+              "RelativeDocumentMoniker": "PHP.PayerSpaces.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\vphpallaps\\source\\repos\\GitRepo\\Prominence-Payer-Spaces\\PayerspaceBackend\\PHP.PayerSpaces.API\\appsettings.json",
+              "RelativeToolTip": "PHP.PayerSpaces.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-21T11:06:08.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vphpallaps\\source\\repos\\GitRepo\\Prominence-Payer-Spaces\\PayerspaceBackend\\PHP.PayerSpaces.API\\Program.cs",
+              "RelativeDocumentMoniker": "PHP.PayerSpaces.API\\Program.cs",
+              "ToolTip": "C:\\Users\\vphpallaps\\source\\repos\\GitRepo\\Prominence-Payer-Spaces\\PayerspaceBackend\\PHP.PayerSpaces.API\\Program.cs",
+              "RelativeToolTip": "PHP.PayerSpaces.API\\Program.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAmwJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T17:37:58.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileController.cs",
+              "DocumentMoniker": "C:\\Users\\vphpallaps\\source\\repos\\GitRepo\\Prominence-Payer-Spaces\\PayerspaceBackend\\PHP.PayerSpaces.API\\Controllers\\FileController.cs",
+              "RelativeDocumentMoniker": "PHP.PayerSpaces.API\\Controllers\\FileController.cs",
+              "ToolTip": "C:\\Users\\vphpallaps\\source\\repos\\GitRepo\\Prominence-Payer-Spaces\\PayerspaceBackend\\PHP.PayerSpaces.API\\Controllers\\FileController.cs",
+              "RelativeToolTip": "PHP.PayerSpaces.API\\Controllers\\FileController.cs",
+              "ViewState": "AQIAAAEBAAAAAAAAAAAQwAIBAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T17:09:07.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PayerSpaceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vphpallaps\\source\\repos\\GitRepo\\Prominence-Payer-Spaces\\PayerspaceBackend\\PHP.PayerSpaces.API\\Models\\PayerSpaceDbContext.cs",
+              "RelativeDocumentMoniker": "PHP.PayerSpaces.API\\Models\\PayerSpaceDbContext.cs",
+              "ToolTip": "C:\\Users\\vphpallaps\\source\\repos\\GitRepo\\Prominence-Payer-Spaces\\PayerspaceBackend\\PHP.PayerSpaces.API\\Models\\PayerSpaceDbContext.cs",
+              "RelativeToolTip": "PHP.PayerSpaces.API\\Models\\PayerSpaceDbContext.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAswB4AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T17:23:28.246Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

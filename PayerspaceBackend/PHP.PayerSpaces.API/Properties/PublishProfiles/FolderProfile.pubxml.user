@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\vphpallaps\source\repos\GitRepo\Prominence-Payer-Spaces\PayerspaceBackend\PublishedCodeAPI</_PublishTargetUrl>
+    <History>True|2024-08-28T11:06:52.9339066Z;False|2024-08-28T16:35:03.7976874+05:30;True|2024-08-27T14:47:13.8853665+05:30;True|2024-08-25T15:08:37.0816915+05:30;True|2024-08-24T10:58:44.2486203+05:30;True|2024-08-24T07:57:01.7654660+05:30;True|2024-08-22T15:20:07.8337634+05:30;True|2024-08-22T14:46:17.2448008+05:30;True|2024-08-21T18:46:16.9387589+05:30;True|2024-08-20T23:09:55.3062482+05:30;True|2024-08-14T16:46:05.6033719+05:30;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

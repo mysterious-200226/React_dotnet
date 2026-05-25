@@ -1,0 +1,17 @@
+{
+  "name": "react-express-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client": "npm start --prefix client",
+    "server": "nodemon server/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0",
+    "nodemon": "^2.0.0"
+  },
+  "dependencies": {
+    "socket.io": "^4.8.1"
+  }
+}
